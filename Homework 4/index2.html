@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=">
+<title>Document</title>
+<style>
+    div.box {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    
+    }
+    div.red {
+        background-color: rgb(243, 122, 122);
+        margin-top: 50px;
+        margin-left: 50px ;
+        z-index: 2;
+    }
+    div.blue {
+        background-color: rgb(108, 182, 224);
+        margin-left: 100px ;
+        margin-top: 100px;
+        z-index: 4;
+    }
+    div.green {
+        background-color: rgb(112, 236, 160);
+        margin-left: 150px ;
+        margin-top: 150px;
+        z-index: 3;
+    }
+</style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box green"></div>
+</body>
+</html>

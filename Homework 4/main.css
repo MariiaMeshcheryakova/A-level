@@ -1,0 +1,28 @@
+body {
+background-color: #0d5825;
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+}
+h1 {
+text-align: center;
+font-size: 25px;
+color: white;
+}
+img {
+width: 150px;
+position: block;
+margin-top: 50px;
+}
+.img1 {
+    transform: rotate(345deg) ; 
+}
+.img2 {
+    transform: rotate(360deg) ; 
+    margin-left: -100px;
+}
+.img3 {
+    transform: rotate(15deg) ; 
+    margin-left: -100px;
+}

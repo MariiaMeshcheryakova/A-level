@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=">
+<title>Document</title>
+<style>
+    html, body {
+        font-size: 20px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        background-color: sandybrown;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-around;
+    }
+    div.list ul {
+        position: relative;
+        list-style: none;
+        display: flex;
+    }
+    li {
+    padding: 10px;
+    }
+    main {
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 0 0 auto;
+        align-items:stretch;
+    }
+    .aside1 {
+        background-color: violet;
+        width: 210px;
+        display: flex;
+        justify-content: center;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    p, h1, h2, h3 {
+        text-align: center;
+        flex-grow: 2;
+    }
+    .forma {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .forma1, .forma2, .forma3, .forma4, .forma5, .forma6 {
+        width: 400px;
+        height: 600px;
+        border-radius: 10%;
+        border-style: solid;
+        border-color: silver;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-evenly;
+        align-items: stretch
+    }
+    .round {
+       width: 100px;
+       height: 100px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto ;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: thistle ;
+        border-width: 20px;
+        flex-grow: 1;
+    }
+    input {
+    width: 70px;
+    height: 40px;
+    color: white;
+    border-style: none;
+    border-radius: 40%;
+    background-color: purple;
+    flex-grow: 1;
+    }
+    .aside2 {
+        background-color: cadetblue;
+        width: 210px;
+        display: flex; 
+        justify-content: center;
+    }
+    .footer {
+        background-color: lightgreen;
+        width: 100%;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+    }
+</style>
+</head>
+<body>
+    <header class="container">
+        <div class="img"><img src="logo_YiWkO4d.png" alt="logo"></div>
+        <div class="list"><ul>
+            <li>Iteam1</li>
+            <li>Iteam2</li>
+            <li>Iteam3</li>
+            <li>Iteam4</li>
+            <li>Iteam5</li>
+        </ul></div>
+    </header>
+    <main>
+        <section class="aside1"><h3>Aside 1</h3></section>
+        <section class="block"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis doloremque porro veniam nemo corrupti natus voluptate hic id.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis doloremque porro veniam nemo corrupti natus voluptate hic id.</p>
+            <h1>OUR WORK</h1>
+            <section class="forma">
+                <div class="forma1"><img src="sierra.jpg" alt="mountain" class="round"><h2>Lorem ipsum dolor sit amet consectetur.</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid, ea porro quisquam quo consequuntur inventore in ad dolor perspiciatis esse dignissimos enim sit minus voluptate recusandae tempore dolores eaque praesentium, aperiam error aliquam doloremque! Corporis, magni harum. Totam in sed, expedita ducimus delectus alias non magni labore laudantium odit!</p>
+                    <form>
+                        <p><input type="button" value=" Go "></p>
+                       </form>
+                    </div>
+                <div class="forma2"><img src="sierra.jpg" alt="mountain" class="round"><h2>Lorem ipsum dolor sit amet consectetur.</h2><p>Lorem ipsum dolor sit amet.</p>
+                    <form>
+                        <p><input type="button" value=" Go "></p>
+                       </form>
+                    </div>
+                <div class="forma3"><img src="sierra.jpg" alt="mountain" class="round"><h2>Lorem ipsum dolor sit amet consectetur.</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, non!</p><form>
+                    <p><input type="button" value=" Go "></p>
+                   </form>
+                </div>
+                <div class="forma4"><img src="sierra.jpg" alt="mountain" class="round"><h2>Lorem ipsum dolor sit amet consectetur.</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi architecto et dolorem porro voluptatum impedit omnis quam, ipsam cum recusandae?</p>
+                    <form>
+                        <p><input type="button" value=" Go "></p>
+                       </form>
+                    </div>
+                <div class="forma5"><img src="sierra.jpg" alt="mountain" class="round"><h2>Lorem ipsum dolor sit amet consectetur.</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt harum autem est excepturi, natus eligendi nobis laborum sequi, nihil officia optio rem blanditiis doloremque laboriosam ea repellendus nam consequuntur fuga suscipit, temporibus reprehenderit quod qui at quidem. Consectetur, fugiat perspiciatis.</p>
+                    <form>
+                        <p><input type="button" value=" Go "></p>
+                       </form>
+                    </div>
+                <div class="forma6"><img src="sierra.jpg" alt="mountain" class="round"><h2>Lorem ipsum dolor sit amet consectetur.</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <form>
+                        <p><input type="button" value=" Go "></p>
+                       </form>
+                    </div>
+            </section>
+        </section> 
+        <section class="aside2"><h3>Aside 2</h3></section>
+    </main>
+    <footer class="footer">
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
